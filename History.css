@@ -1,0 +1,119 @@
+
+.japan {
+    width: 100%;
+    height: 700px;
+    position: relative;
+    z-index: -1;
+    border-radius: 10px;
+}
+.texthead {
+    position: absolute;
+    font-family:'Times New Roman', Times, monospace;
+}
+.name {
+    z-index: 1;
+    color: rgba(228, 8, 176, 0.565);
+    margin-left: 150px;
+    margin-top: -580px;
+    font-size: 100px;
+}
+.name2 {
+    z-index: 2;
+    color: black;
+    margin-top: -120px;
+    margin-left: 40px;
+    font-size: 45px;
+    font-style: italic;
+    opacity: 0.5;
+    font-weight: lighter;
+}
+
+.home{
+    border-radius: 16px;
+    margin-top: -690px;
+    margin-left: 1168px;
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    background-color: rgba(228, 8, 176, 0.265);
+    width: 200px;
+    height: 40px;
+    z-index: 2;
+    color: black;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+    transition: 0.7s;
+}
+.home:hover{
+    transform: scale(1.2);
+    color: rgb(228, 8, 176);
+    background-color: white;
+    opacity: 0.5;
+}
+.navi {
+    width: 100%;
+    height: 100px;
+    background-color:rgba(228, 8, 177, 0.466);
+    position: static;
+    border-radius: 16px;
+}
+.texthead:hover {
+    transform: scale(1.1) translate(0px, 50px);
+    .name {
+        color:black;
+        opacity: 0.7;  
+    }
+    .name2 {
+        opacity: 1;
+        color:rgb(228, 8, 176);
+    }
+}
+span {
+    font-weight: bold;
+}
+.texthead, .name2, .name {
+    transition: 1.2s;
+}
+ul .nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap: 20px;
+    margin-top: 630px;
+}
+.nav {
+    margin-top: 20px;
+    width: 300px;
+    background-color: #F3FFEE;
+    border-radius: 24px;
+    transition: 0.7s;
+    border: 2px solid #333;
+    font-family: 'Courier New', Courier, monospace;
+}
+.nav:hover, a:hover {
+    transform: scale(1.1);
+    color: rgb(228, 8, 176);
+}
+a {
+    text-decoration: none;
+    transition: 0.7s;
+}
+.yaey {
+    border-radius: 16px;
+    background-color: rgb(249, 204, 204);
+    padding: 10px;
+}
+.dzeymon{
+    border-radius: 16px;
+    background-color: rgb(249, 204, 238);
+    padding: 10px;
+    margin-bottom: 10px;
+}
